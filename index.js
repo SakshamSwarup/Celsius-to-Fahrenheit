@@ -1,4 +1,4 @@
-function myTemp(tempvalue){
+function myTemp(){
     var celcius = document.getElementById("celcius").value;
     var fahrenheit = (celcius * 9/5) + 32;
     var btnconvert = document.querySelector(".button");
