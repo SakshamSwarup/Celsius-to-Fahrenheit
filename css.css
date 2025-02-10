@@ -1,0 +1,98 @@
+*{
+
+    margin: 0;
+    padding: 0;
+  
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Lexend", sans-serif;
+    letter-spacing: 0.05em;
+    box-sizing: border-box;
+
+}
+
+
+h1{
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+#box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10vh ;
+    max-width: 50vw;
+    height: 50vh;
+    margin-left: 25vw;
+    margin-top: 5%;
+background: #D9D9D9;
+box-shadow: 0px 6px 10px -6px rgba(0, 0, 0, 0.25);
+border-radius: 77px;
+
+}
+
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:8vh;
+    left: 8%;
+
+}
+
+#celcius{
+margin-top: 4%;
+
+width: 15vw;
+height: 5vh;
+left: 120px;
+top: 353px;
+font-size: xx-large;
+background: #FFFFFF;
+border: 3px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+
+}
+
+
+#Fahrenheit {
+    margin-top: 4%;
+    width: 15vw;
+    height: 5vh;
+    left: 120px;
+    font-size: xx-large;
+    top: 353px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    
+    
+    }
+
+#btn{
+   margin-top: 10%;
+   margin-left: 15vw;
+   padding-left: 3vw ;
+
+}
+
+.button{
+    width: 10vw;
+    height: 5vh;
+    font-family: Lexend;
+color: #FFFFFF;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    background: #EE4646;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    
+    
+    }
